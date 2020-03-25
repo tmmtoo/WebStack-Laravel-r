@@ -1,4 +1,4 @@
-const mix = require('laravel-mix');
+const mix = require("laravel-mix");
 
 /*
  |--------------------------------------------------------------------------
@@ -11,5 +11,23 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css');
+mix.js("resources/js/app.js", "public/js")
+    .sass("resources/sass/app.scss","public/css");
+
+mix.scripts(
+    [
+        "node_modules/material-dashboard/assets/js/core/jquery.min.js",
+        "node_modules/material-dashboard/assets/js/core/popper.min.js",
+        "node_modules/material-dashboard/assets/js/core/bootstrap-material-design.min.js",
+        "node_modules/material-dashboard/assets/js/plugins/perfect-scrollbar.jquery.min.js",
+        "node_modules/material-dashboard/assets/js/plugins/chartist.min.js",
+        "node_modules/material-dashboard/assets/js/plugins/bootstrap-notify.js",
+        "node_modules/material-dashboard/assets/js/material-dashboard.min.js"
+    ],
+    "public/js/dashboard.js"
+);
+
+mix.styles(
+    ["node_modules/material-dashboard/assets/css/material-dashboard.min.css"],
+    "public/css/dashboard.js"
+);
