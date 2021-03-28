@@ -1,6 +1,14 @@
 # WebStack-Laravel
 
-一个开源的网址导航网站项目，具备完整的前后台，您可以拿来制作自己的网址导航。
+一个开源的网址导航网站项目，具备完整的前后台，您可以拿来制作自己的网址导航。这是个修改版本，修复了后台登录重定向的问题。
+欢迎使用交流：
+
+安装教程：https://www.daniao.org/13006.html
+
+博客订阅：https://t.me/rssdaniao
+
+交流tg群：https://t.me/daniaoboke
+
 
 ![首页](public/screen/01.png)
 
