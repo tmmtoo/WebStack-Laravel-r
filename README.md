@@ -58,7 +58,9 @@ php artisan migrate:refresh --seed
 6）设置伪静态，Laravel5伪静态 nginx代码如下：
 
 ```shell
-location / { try_files $uri $uri/ /index.php$is_args$query_string; }
+location / { 
+try_files $uri $uri/ /index.php$is_args$query_string; 
+}
 ```
 
 
