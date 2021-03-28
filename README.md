@@ -22,13 +22,13 @@
 git clone https://github.com/hui-ho/WebStack-Laravel.git
 ```
 
-安装依赖：
+1）安装依赖：
 
 ```shell
 $ composer install
 ```
 
-编辑配置：
+2）编辑配置：
 
 ```
 $ cp .env.example .env
@@ -42,20 +42,20 @@ DB_PASSWORD=password
 ...
 ```
 
-生成 KEY：
+3）生成 KEY：
 
 ```shell
 $ php artisan key:generate  
 ```
 
-迁移数据：
+4）迁移数据：
 
 ```shell
 php artisan migrate:refresh --seed
 ```
-设置public为网站访问目录
+5）设置public为网站访问目录
 
-设置伪静态，Laravel5伪静态 nginx代码如下：
+6）设置伪静态，Laravel5伪静态 nginx代码如下：
 
 ```shell
 location / { try_files $uri $uri/ /index.php$is_args$query_string; }
