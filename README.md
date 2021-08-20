@@ -5,11 +5,6 @@
 
 安装教程：https://www.daniao.org/13006.html
 
-博客订阅：https://t.me/rssdaniao
-
-交流tg群：https://t.me/daniaoboke
-
-
 ![首页](public/screen/01.png)
 
 
